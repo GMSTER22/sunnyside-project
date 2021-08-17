@@ -1,0 +1,18 @@
+{
+  "name": "frontend-mentor-sunnyside-agency-project",
+  "version": "1.0.0",
+  "description": "building the sunnyside agency project from frontend mentor",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add https://github.com/GMSTER22/sunnyside-project.git"
+  },
+  "author": "Gael Souleymane Nongnogo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
