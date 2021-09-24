@@ -88,16 +88,7 @@ html {
 
     @include respond(medium-device) {
         font-size: 43%;
-    }    
-    
-    // @include respond(small-device) { //40%
-    //     font-size: 62.5%;
-    // }
-
-    // @include respond(extra-small-device) { // 25%
-    //     font-size: 62.5%;
-    // } 
-    
+    }        
 }
 
 body {
