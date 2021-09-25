@@ -61,8 +61,7 @@ Extra large device = @media (min-width:1200px) {...}
     @if ($breakpoint == extra-large-device) {
         @media (max-width: 75em) {@content};
     }
-} 
-                                 
+}                                
 
 
 *,
