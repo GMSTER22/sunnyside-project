@@ -656,6 +656,7 @@ img {
 
     & img {
         width: 25%;
+        transition: all .3s ease-in-out;
 
         @include respond(small-device) {
             width: 50%;
@@ -675,6 +676,7 @@ img {
 }
 
 .footer {
+    position: relative;
     background-color: $color-medium-cyan;
     text-align: center;
     padding: 5rem 0;

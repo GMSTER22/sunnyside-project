@@ -430,7 +430,8 @@ img {
       display: flex;
       flex-wrap: wrap; } }
   .gallery img {
-    width: 25%; }
+    width: 25%;
+    transition: all .3s ease-in-out; }
     @media (max-width: 36em) {
       .gallery img {
         width: 50%; } }
@@ -440,6 +441,7 @@ img {
   filter: invert(28%) sepia(6%) saturate(3740%) hue-rotate(116deg) brightness(92%) contrast(87%); }
 
 .footer {
+  position: relative;
   background-color: #458c7e;
   text-align: center;
   padding: 5rem 0; }
