@@ -215,6 +215,7 @@ h5, h6 {
     }
 
     &-yellow {
+
         &::after {
             content: " ";
             position: relative;
@@ -264,7 +265,9 @@ h5, h6 {
 
 .container { 
     width: 100%;
-    max-width: 144rem;   
+    max-width: 144rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navigation {
@@ -275,10 +278,7 @@ h5, h6 {
 
     @include respond(small-device) {  
         transition: all 1s ease-in-out;
-    }
-
-    
-    
+    }       
 
    &_list {
        list-style: none;
